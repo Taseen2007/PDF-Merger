@@ -14,6 +14,8 @@ if "," in user_input:
 
 # Split the input string into individual file names
 for i in user_input.split(" "):
+    if ".pdf" not in i:
+        i = i + ".pdf"
     pdf_list.append(i)
 
 print("Files you're attempting to merge: ")
