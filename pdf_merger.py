@@ -2,7 +2,7 @@
 Allows user to add multiple pdfs and merge them into a single pdf.
 """
 
-from PyPDF2 import PdfWriter
+from pypdf import PdfWriter
 
 # Get user input for pdf files to merge
 pdf_list = []
